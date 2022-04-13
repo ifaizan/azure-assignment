@@ -46,8 +46,6 @@ module "vnet" {
     "${each.value["subnet_names"][1]}" = module.route_table["${each.key}"].id
   }
 
-  # tags = local.common_tags
-
   depends_on = [
     module.network-security-group, module.route_table
   ]
