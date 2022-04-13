@@ -2,7 +2,7 @@
 
 The directory structure of this repository is given below:
 
-| Directory Structure | Purpose |
+| Directory | Purpose |
 | ------ |------|
 | `prod` | Contains Terraform templates for Production Environment|
 | `modules` | Terraform modules called by environment (production in this case)| 
